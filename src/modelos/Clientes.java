@@ -36,7 +36,7 @@ public class Clientes extends Pessoa {
 
         return "Clientes{" +
                 "id=" + id +
-                ", nome=" +getNome() +
+                ", nome=" + this.getNome() +
                 ", pets=" + pets +
                 '}';
     }

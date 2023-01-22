@@ -93,14 +93,24 @@ public abstract class Animais {
         this.observacoes = observacoes;
     }
 
+//    @Override
+//    public String toString() {
+//        return "Animais{" +
+//                "nome='" + nome + '\'' +
+//                ", nascimento=" + nascimento +
+//                ", raca='" + raca + '\'' +
+//                ", porte=" + porte +
+//                ", peso=" + peso +
+//                ", estadoAnimal=" + estadoAnimal +
+//                ", vacinas=" + vacinas +
+//                ", observacoes='" + observacoes + '\'' +
+//                '}';
+//    }
+
     @Override
     public String toString() {
         return "Animais{" +
                 "nome='" + nome + '\'' +
-                ", nascimento=" + nascimento +
-                ", raca='" + raca + '\'' +
-                ", porte=" + porte +
-                ", peso=" + peso +
                 ", estadoAnimal=" + estadoAnimal +
                 ", vacinas=" + vacinas +
                 ", observacoes='" + observacoes + '\'' +
